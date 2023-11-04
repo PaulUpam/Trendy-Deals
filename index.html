@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trendy Deals</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+    <!-- animation css link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--  -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img width="150" src="./image/logo .png" alt="logo" class="rounded-4">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active myActive rounded" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="d-flex">
+                        <button class="btn"><i class='bx bx-cart naviconSize'></i></button>
+                        <button class="btn"><i class='bx bxs-user naviconSize'></i></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="container mt-4">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner  rounded">
+                    <div class="carousel-item active">
+                        <div class="row bg-info  ">
+                            <div
+                                class="col-sm-12 order-2 order-md-1  col-md-6 ps-5 d-flex align-items-center ps-4 mt-5">
+                                <div class="p-4">
+                                    <h1>Your One-Stop Shop for the Hottest Trends in <span
+                                            class="text-warning" id="example"> </span>, <br> Home Décor, and More!</h1>
+                                    <p class="mt-3 ">At Trendy Deals, we're all about bringing you the latest and
+                                        greatest in fashion, home décor, and more. Whether you're looking for the
+                                        perfect outfit for a night out, some stylish new décor for your living room, or
+                                        the latest tech gadgets, we've got you covered. With unbeatable prices, fast
+                                        shipping, and top-notch customer service, shopping at Trendy Deals is a
+                                        no-brainer!</p>
+                                    <button class="btn btn-danger mt-4"> Buy Now</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 order-1 order-md-2 col-md-6 p-2 d-flex justify-content-center ">
+                                <img width="300" class="img-fluid" src="./image/fashion caro.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row sliderBg  ">
+                            <div
+                                class="col-sm-12 order-2 order-md-1  col-md-6 ps-5 d-flex align-items-center ps-4 mt-5">
+                                <div class="p-4 ">
+                                    <h1>Your One-Stop Shop for the Hottest Trends in Fashion,<br>  <span
+                                            class="text-danger" id="example2" ></span>, and More!</h1>
+                                    <p class="mt-3 text-dark ">At Trendy Deals, we're all about bringing you the latest
+                                        and greatest in fashion, home décor, and more. Whether you're looking for the
+                                        perfect outfit for a night out, some stylish new décor for your living room, or
+                                        the latest tech gadgets, we've got you covered. With unbeatable prices, fast
+                                        shipping, and top-notch customer service, shopping at Trendy Deals is a
+                                        no-brainer!</p>
+                                    <button class="btn btn-danger mt-4"> Buy Now</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 order-1 order-md-2 col-md-6 p-2 d-flex justify-content-center">
+                                <img width="300" class="img-fluid" src="./image/home decor.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row bg-dark">
+                            <div
+                                class="col-sm-12 order-2 order-md-1  col-md-6 ps-5 d-flex align-items-center ps-4 mt-5">
+                                <div class="p-4">
+                                    <h1 class="text-light">Your One-Stop Shop for the Hottest Trends in <span
+                                            class="text-warning">Fashion</span>, <br> <span class="text-danger">Home
+                                            Décor</span>, and <span class="text-success" id="example3" > </span></h1>
+                                    <p class="text-light  mt-3">At Trendy Deals, we're all about bringing you the latest
+                                        and greatest in fashion, home décor, and more. Whether you're looking for the
+                                        perfect outfit for a night out, some stylish new décor for your living room, or
+                                        the latest tech gadgets, we've got you covered. With unbeatable prices, fast
+                                        shipping, and top-notch customer service, shopping at Trendy Deals is a
+                                        no-brainer!</p>
+                                    <button class="btn btn-danger mt-4"> Buy Now</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 order-1 order-md-2 col-md-6 p-2 d-flex justify-content-center">
+                                <img width="300" class="img-fluid" src="./image/car.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+
+        <section id="feature" class="mt-4">
+            <div class="container">
+                <h1 class="text-danger text-center">Our Feature</h1>
+                <p class="text-center text-warning">Fulfillment feature</p>
+            </div>
+            <div class="container mt-2">
+                <div class="row gap-3 d-flex justify-content-center">
+                    <div
+                        class="col-sm-12 justify-content-center col-md-5 justify-content-md-center col-lg-3 d-flex align-items-center rounded bg-info text-danger">
+                        <h3 class="p-2">Fashion & Wears</h3>
+                        <img class="py-3" width="150px" src="./image/clothing.png" alt="photo">
+                    </div>
+                    <div
+                        class="col-sm-12 justify-content-center col-md-5 justify-content-md-center col-lg-3 d-flex align-items-center rounded bg-warning text-success">
+                        <h3 class="py-2">Smart Phones</h3>
+                        <img class="py-2" width="150px" src="./image/smartphone.png" alt="photo">
+                    </div>
+                    <div
+                        class="col-sm-12 justify-content-center col-md-5 col-lg-3 d-flex align-items-center  rounded bg-success text-info">
+                        <h3 class="">BagPack</h3>
+                        <img width="150px" src="./image/bagpackFeature.png" alt="photo">
+                    </div>
+                    <div
+                        class="col-sm-12 justify-content-center col-md-5 col-lg-3 d-flex align-items-center  rounded bg-danger text-success gap-2">
+                        <h3>Gadgets</h3>
+                        <img width="150px" src="./image/gadgetFeature.png" alt="photo">
+                    </div>
+
+                    <div
+                        class="col-sm-12 justify-content-center col-md-5 justify-content-md-center col-lg-3 d-flex align-items-center rounded bg-info text-danger">
+                        <h3 class="py-2">Furniture</h3>
+                        <img class="py-2" width="150px" src="./image/furnitureFeature.png" alt="photo">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="product" class="mt-4 container">
+            <div class="container text-center text-danger ">
+                <h2 data-aos="zoom-in-up">Products</h2>
+                <span class="text-dark">All kinds of product Info here</span>
+            </div>
+
+            <div class="row d-flex justify-content-center ">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/bike2.png" alt="bikes">
+                        </div>
+                    </div>
+                    <h6 class="text-center  bg-info rounded">Bikes</h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/watch.png" alt="watches">
+                        </div>
+                    </div>
+                    <h6 class="text-center  bg-info rounded">Smart Watch</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/shoes.png" alt="shoes">
+                        </div>
+                    </div>
+                    <h6 class="text-center bg-info rounded">Shoes</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/sunglass.png" alt="Sunglass">
+                        </div>
+                    </div>
+                    <h6 class="text-center  bg-info rounded">Sunglasses</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/ac.png" alt="Air Conditioner">
+                        </div>
+                    </div>
+                    <h6 class="text-center  bg-info rounded">Air Conditioner</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/monitor.png" alt="Monitor">
+                        </div>
+                    </div>
+                    <h6 class="text-center bg-info rounded">Display Monitor</h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/cycle.png" alt="Cycles">
+                        </div>
+                    </div>
+                    <h6 class="text-center bg-info rounded">Cycles</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/headphone.png" alt="HeadPhone">
+                        </div>
+                    </div>
+                    <h6 class="text-center bg-info rounded">HeadPhones</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/helmet.png" alt="Helmets">
+                        </div>
+                    </div>
+                    <h6 class="text-center bg-info rounded">Helmets</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/Washing machine.png" alt="Washing Machine">
+                        </div>
+                    </div>
+                    <h6 class="text-center bg-info rounded">Washing Machine</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/fridge.png" alt="fridge">
+                        </div>
+                    </div>
+                    <h6 class="text-center bg-info rounded">Refrigaretor</h6>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/gents dress.png" alt="dress">
+                        </div>
+                    </div>
+                    <h6 class="text-center bg-info rounded">Gents Item</h6>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center ">
+                    <div class="card border-0 bg-warning mt-4 ">
+                        <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                            <img src="./image/ladies dress.png" alt="dress">
+                        </div>
+                    </div>
+                    <h6 class="text-center bg-info rounded">Ladies Item</h6>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
+    <footer >
+        <div class="container rounded-2 mt-5 bg-primary text-light">
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-12  col-md-4 p-5">
+                    <h1>Trendy Deals</h1>
+                    <p class="mt-3">At Trendy Deals, we're all about bringing you the latest and greatest in fashion,
+                        home décor, and more.</p>
+                    <div class="d-flex">
+                        <div>
+                            <h4>Follow Us</h4>
+                        </div>
+                        <div class="iconFooter">
+                            <a href="">
+                                <i class='bx bxl-facebook-circle icon'></i>
+                            </a>
+                            <a href="">
+                                <i class='bx bxl-instagram icon'></i>
+                            </a>
+                            <a href="">
+                                <i class='bx bxl-youtube icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 p-5">
+                    <h3>Contact Us</h3>
+                    <p class="mt-4">House #16, Road # 5, <br>Mohammadpur, Dhaka-1207.</p>
+                    <p>Email:trendydealsshop@mail.com</p>
+                </div>
+                <div class="col-sm-12 col-md-4 p-5 helpcenter">
+                    <h3 class="mb-3">Let Us Help You</h3>
+                    <a href="">Your Account</a>
+                    <a href="">Your Order</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">FAQ</a>
+                </div>
+                <div class="col-lg-8 text-light p-3 d-flex justify-content-center reserv">
+                    <p> © 2023 trendydeals.com/shop . All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+   
+    <!-- jquery plugin -->
+
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script
+      src=".//Text-Rotator-With-Typing-Effect-jQuery-Typer/Text-Rotator-With-Typing-Effect-jQuery-Typer/src/typer.js"></script>
+    <script>
+
+      $("#example").typer({
+        strings: [
+          "Fashion",
+          "Wears",
+        ]
+      });
+
+      $("#example2").typer({
+        strings: [
+          "Home Décor",
+          "Applaience",
+        ]
+      });
+
+      $("#example3").typer({
+        strings: [
+          "More!",
+          "Bikes",
+          "Cars",
+        ]
+      });
+      
+    </script>
+     <!-- Annimation Js -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+     </script>
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

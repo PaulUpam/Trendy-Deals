@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trendy Deals</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+
+  <!-- animation css link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--  -->
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img width="150" src="./image/logo .png" alt="logo" class="rounded-4">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active myActive rounded" href="./shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+
+          </ul>
+
+          <div class="d-flex">
+            <button class="btn"><i class='bx bx-cart naviconSize'></i></button>
+            <button class="btn"><i class='bx bxs-user naviconSize'></i></button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main>
+    <section id="catagories">
+      <div class="mt-4 container">
+        <div class="container text-center text-danger ">
+          <h2 data-aos="zoom-in-up">Catagories</h2>
+          <span class="text-dark">All kinds of product Available here !</span>
+        </div>
+
+        <div class="row d-flex justify-content-center gap-2 ">
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myproductDecor rounded-2 p-3">
+            <a href="#clothingItem">
+              <div class="card border-0 bg-info mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/clothing.png" alt="cloth">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Fashion & Wears</h4>
+                <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">View Details</button>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myproductDecor rounded-2 p-3">
+            <a href="#gadgetsItem">
+              <div class="card border-0 bg-info mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img class="rounded" src="./image/gadgets2.png" alt="bikes">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Gadgets</h4>
+                <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+
+                <button class="btn btn-danger ">View Details</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myproductDecor rounded-2 p-3">
+            <a href="#decorItem">
+              <div class="card border-0 bg-info mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img class="rounded" src="./image/home decoration.png" alt="decoration">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Home Decoration</h4>
+                <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+
+                <button class="btn btn-danger ">View Details</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-612 text-center  myproductDecor rounded-2 p-3">
+            <a href="#cars&bikes">
+              <div class="card border-0 bg-info mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img class="rounded" src="./image/bike&car.png" alt="bikes">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Bikes & Cars</h4>
+                <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">View Details</button>
+              </div>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- clothing -->
+    <section id="clothingItem" class="container">
+      <div class="container mt-5 text-center text-warning bg-dark rounded-4">
+        <h2 data-aos="zoom-in-up">Fashion & Wears</h2>
+        <span class="text-info" data-aos="zoom-in-up">All kinds of fashion product here !</span>
+      </div>
+      <div class="row d-flex justify-content-center bg-info rounded mt-2 ">
+
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/gents dress.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">Gents Item</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+
+
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/ladies dress.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">Ladies Item</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/ring.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">Accecories</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+
+
+
+        <div class="row ">
+          <div class="col-lg-6 text-center m-auto">
+            <a href="./fashionwear.html" target="_blank"> <button class="btn btn-danger mt-5 mb-5">Click For
+                More</button></a>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+    </section>
+
+
+
+    <!-- Gadgets -->
+    <section id="gadgetsItem" class="container">
+      <div class="container mt-5 text-center text-warning bg-dark rounded-4">
+        <h2 data-aos="zoom-in-up">Gadgets & SmartPhones</h2>
+        <span class="text-info" data-aos="zoom-in-up">All kinds of Tech product here !</span>
+      </div>
+      <div class="row d-flex justify-content-center bg-danger rounded mt-2 ">
+
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/watch.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">Smart Watch</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+
+
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/headphone.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">Head Phones</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/speakers.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">Speakers</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/fridge.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">Refrigaretor</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/ac.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">Air Conditioner</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/smartphone.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">Smart Phone</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-5 col-sm-12 text-center myproductItem ">
+          <a href="">
+            <div class="card border-0 bg-warning mt-4 ">
+              <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                <img src="./image/microwave.png" alt="bikes">
+              </div>
+            </div>
+            <h5 class="text-center text-dark">MicroOven</h5>
+            <p class="text-dark ">Lorem ipsum dolor sit amet</p>
+            <button class="btn btn-success ">Buy Now</button>
+          </a>
+        </div>
+
+
+
+       
+      </div>
+
+
+      </div>
+    </section>
+
+
+    <!-- Home Decor -->
+    <section id="decorItem">
+      <div class="mt-4 container">
+        <div class="container mt-5 text-center text-warning bg-dark rounded-4" ">
+          <h2 data-aos="zoom-in-up">Home decoration</h2>
+          <p class="text-info" data-aos="zoom-in-up">All kinds of product Available here !</p>
+        </div>
+
+        <div class="row d-flex justify-content-center gap-2 ">
+
+    
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myhomeDecor rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-primary mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/vase1.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Flower Vase</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myhomeDecor rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-warning mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/vase2.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Flower Vase</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myhomeDecor rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-primary mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/vase3.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Flower Vase</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myhomeDecor rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-warning mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/furni1.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Book shelf</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myhomeDecor rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-primary mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/furni2.png" alt="Furniture">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Divan/Sofa</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myhomeDecor rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-warning mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/furni3.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Cabinet Shelf</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  myhomeDecor rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-warning mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/furni3.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Cabinet Shelf</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+    <!-- bike & car -->
+    <section id="cars&bikes">
+      <div class="mt-4 container">
+        <div class="container mt-5 text-center text-warning bg-dark rounded-4" ">
+          <h2 data-aos="zoom-in-up">Car,Bikes & Helmets</h2>
+          <p class="text-info" data-aos="zoom-in-up">All kinds of product Available here !</p>
+        </div>
+
+        <div class="row d-flex justify-content-center gap-2 ">
+
+    
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-primary mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/bike1.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Pulser NS</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-warning mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/bikes2.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Bazaz Avenger</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-primary mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/bike3.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">KTM RC</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-warning mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/car1.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Car222</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-primary mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/car2.png" alt="Furniture">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Car 666</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-warning mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/car3.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Car 222</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-danger mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/car5.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Car 999</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-warning mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/car4.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Car Model 1202</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-info mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/car6.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Red Ford</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-sm-12 text-center  bikeCarBg rounded-2 p-3">
+            <a href="">
+              <div class="card border-0 bg-warning mt-4 ">
+                <div data-aos="zoom-in-up" class="card-body d-flex justify-content-center align-items-center">
+                  <img src="./image/helmet.png" alt="vase">
+                </div>
+              </div>
+              <div>
+                <h4 class="text-center text-dark mt-2 ">Helmet</h4>
+                <p class="text-warning ">Lorem ipsum dolor sit amet</p>
+                <button class="btn btn-danger ">Add to Cart</button>
+              </div>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer >
+      <div class="container rounded-2 mt-5 bg-primary text-light">
+          <div class="row d-flex justify-content-center">
+              <div class="col-sm-12  col-md-4 p-5">
+                  <h1>Trendy Deals</h1>
+                  <p class="mt-3">At Trendy Deals, we're all about bringing you the latest and greatest in fashion,
+                      home décor, and more.</p>
+                  <div class="d-flex">
+                      <div>
+                          <h4>Follow Us</h4>
+                      </div>
+                      <div class="iconFooter">
+                          <a href="">
+                              <i class='bx bxl-facebook-circle icon'></i>
+                          </a>
+                          <a href="">
+                              <i class='bx bxl-instagram icon'></i>
+                          </a>
+                          <a href="">
+                              <i class='bx bxl-youtube icon'></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-4 p-5">
+                  <h3>Contact Us</h3>
+                  <p class="mt-4">House #16, Road # 5, <br>Mohammadpur, Dhaka-1207.</p>
+                  <p>Email:trendydealsshop@mail.com</p>
+              </div>
+              <div class="col-sm-12 col-md-4 p-5 helpcenter">
+                  <h3 class="mb-3">Let Us Help You</h3>
+                  <a href="">Your Account</a>
+                  <a href="">Your Order</a>
+                  <a href="">Privacy Policy</a>
+                  <a href="">FAQ</a>
+              </div>
+              <div class="col-lg-8 text-light p-3 d-flex justify-content-center reserv">
+                  <p> © 2023 trendydeals.com/shop . All rights reserved.</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+  <!-- Annimation Js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

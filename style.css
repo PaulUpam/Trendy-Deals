@@ -1,0 +1,59 @@
+*{
+    font-family: 'Instrument Serif', serif;
+    
+}
+.myActive{
+    background-color: coral;
+    
+}
+.naviconSize{ 
+    font-size: 24px;
+}
+
+.sliderBg {
+    background-image: url(./image/green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering\ 1@2x.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+.iconFooter{
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.iconFooter a{
+    text-decoration: none;
+}
+.icon{
+  font-size: 25px;
+  color: white;
+}
+.helpcenter a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+/* shop */
+
+.myproductDecor{background-color: coral  !important; }
+.myproductDecor a{text-decoration: none !important;}
+
+.myproductItem a{
+  text-decoration: none;
+}
+/* home decor */
+.myhomeDecor{background-color: rgb(80, 255, 200)  !important; }
+.myhomeDecor a{text-decoration: none !important;}
+
+/* Bike&Accecories */
+.bikeCarBg{
+  background-color: greenyellow !important;
+}
+.bikeCarBg a{
+text-decoration: none !important;
+}
